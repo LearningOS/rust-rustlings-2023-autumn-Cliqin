@@ -27,6 +27,7 @@ fn main() {
         Message::Quit,
     ];
 
+    //枚举类里的每个成员都有一个call方法!
     for message in &messages {
         message.call();
     }
